@@ -11,7 +11,6 @@ st.title("📝 Legend - Génération de légende à partir d'un texte")
 st.markdown("""
 A quel poste penses-tu ? """)
 
-type = st.selectbox("type", ["legend"])
 input = st.text_input("A quoi penses-tu ?")
 
 # Configuration du webhook N8N
@@ -27,7 +26,7 @@ if st.button("🚀 Générer la légende", type="primary"):
                     # Convertir l'image en base64
                     # Préparer les données pour le webhook
                     payload = {
-                        "input": input,
+                        "input": "legend",
                         "type": type
                     }
 
