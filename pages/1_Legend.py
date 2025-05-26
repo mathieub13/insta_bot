@@ -26,8 +26,8 @@ if st.button("🚀 Générer la légende", type="primary"):
                     # Convertir l'image en base64
                     # Préparer les données pour le webhook
                     payload = {
-                        "input": "legend",
-                        "type": type
+                        "input": input,
+                        "type": "legend"
                     }
 
                     # Envoyer au webhook N8N
