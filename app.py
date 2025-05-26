@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📸 InstBot - Générateur de légendes Instagram")
-st.markdown("Bienvenue sur InstBot ! Choisissez une page dans la barre latérale pour commencer.")
+st.title("📸 InstaBot - Générateur de légendes Instagram")
+st.markdown("Bienvenue sur InsatBot ! Choisissez une page dans la barre latérale pour commencer.")
 
 st.sidebar.success("Sélectionnez une page ci-dessus.")
